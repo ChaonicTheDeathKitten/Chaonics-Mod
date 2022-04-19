@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "chaonics_mod:chestnut_log_stripped"
+    },
+    "1": {
+      "item": "chaonics_mod:chestnut_log_stripped"
+    },
+    "2": {
+      "item": "chaonics_mod:chestnut_log_stripped"
+    },
+    "3": {
+      "item": "chaonics_mod:chestnut_log_stripped"
+    }
+  },
+  "result": {
+    "item": "chaonics_mod:chestnut_stripped_wood",
+    "count": 4
+  }
+}

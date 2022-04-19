@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "chaonics_mod:chestnut_log",
+    "chaonics_mod:chestnut_door",
+    "chaonics_mod:chestnut_lamp",
+    "chaonics_mod:chestnut_wood",
+    "chaonics_mod:chestnut_trapdoor"
+  ]
+}

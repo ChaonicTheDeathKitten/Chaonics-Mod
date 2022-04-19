@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "chaonics_mod:blocks/chestnut_planks"
+  }
+}

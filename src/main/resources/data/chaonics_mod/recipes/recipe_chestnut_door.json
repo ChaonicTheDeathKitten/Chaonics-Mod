@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "chaonics_mod:chestnut_planks"
+    },
+    "1": {
+      "item": "chaonics_mod:chestnut_planks"
+    },
+    "2": {
+      "item": "chaonics_mod:chestnut_planks"
+    },
+    "3": {
+      "item": "chaonics_mod:chestnut_planks"
+    },
+    "4": {
+      "item": "chaonics_mod:chestnut_planks"
+    },
+    "5": {
+      "item": "chaonics_mod:chestnut_planks"
+    }
+  },
+  "result": {
+    "item": "chaonics_mod:chestnut_door",
+    "count": 3
+  }
+}

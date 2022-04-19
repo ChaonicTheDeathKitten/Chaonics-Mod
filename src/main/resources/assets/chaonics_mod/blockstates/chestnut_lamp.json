@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chaonics_mod:block/chestnut_lamp"
+    },
+    "facing=east": {
+      "model": "chaonics_mod:block/chestnut_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chaonics_mod:block/chestnut_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chaonics_mod:block/chestnut_lamp",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "chaonics_mod:blocks/chestnut_planks"
+  }
+}

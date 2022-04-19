@@ -1,0 +1,46 @@
+{
+  "_fv": 27,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChestnutLogStripped"
+      },
+      {
+        "value": "CUSTOM:ChestnutLogStripped"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChestnutLogStripped"
+      },
+      {
+        "value": "CUSTOM:ChestnutLogStripped"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChestnutStrippedWood"
+    },
+    "name": "recipe_chestnut_stripped_wood",
+    "namespace": "mod"
+  }
+}

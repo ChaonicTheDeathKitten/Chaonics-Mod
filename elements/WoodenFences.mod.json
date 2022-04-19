@@ -1,0 +1,21 @@
+{
+  "_fv": 27,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:ChestnutFence"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:ChestnutFence"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "wooden_fences",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chaonics_mod:block/chestnut_slab"
+    },
+    "type=top": {
+      "model": "chaonics_mod:block/chestnut_slab_top"
+    },
+    "type=double": {
+      "model": "chaonics_mod:block/chestnut_slab_full"
+    }
+  }
+}

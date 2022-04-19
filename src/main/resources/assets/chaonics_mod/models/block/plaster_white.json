@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaonics_mod:blocks/plaster_white",
+    "particle": "chaonics_mod:blocks/plaster_white"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chaonics_mod:block/chestnut_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chaonics_mod:block/chestnut_wood"
+    },
+    "axis=z": {
+      "model": "chaonics_mod:block/chestnut_wood",
+      "x": 90
+    }
+  }
+}

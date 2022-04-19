@@ -1,0 +1,29 @@
+{
+  "_fv": 27,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "spatula",
+    "customModelName": "Normal",
+    "name": "Spatula",
+    "specialInfo": [
+      "To remove plaster"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ChaonicsModTab"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

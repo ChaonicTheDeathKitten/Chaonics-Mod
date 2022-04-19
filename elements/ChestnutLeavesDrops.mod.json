@@ -1,0 +1,10 @@
+{
+  "_fv": 27,
+  "_type": "loottable",
+  "definition": {
+    "type": "Block",
+    "pools": [],
+    "name": "blocks/chestnut_leaves_drops",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "chaonics_mod:blocks/chestnut_planks",
+    "particle": "chaonics_mod:blocks/chestnut_planks"
+  }
+}

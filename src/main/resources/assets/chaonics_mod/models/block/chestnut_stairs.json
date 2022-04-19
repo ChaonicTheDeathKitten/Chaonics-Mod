@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "chaonics_mod:blocks/chestnut_planks",
+    "top": "chaonics_mod:blocks/chestnut_planks",
+    "side": "chaonics_mod:blocks/chestnut_planks"
+  }
+}

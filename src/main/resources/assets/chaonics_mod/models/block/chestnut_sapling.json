@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chaonics_mod:blocks/chestnut_sapling",
+    "particle": "chaonics_mod:blocks/chestnut_sapling"
+  }
+}

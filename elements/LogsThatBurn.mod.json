@@ -1,0 +1,26 @@
+{
+  "_fv": 27,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChestnutLog"
+      },
+      {
+        "value": "CUSTOM:ChestnutWood"
+      },
+      {
+        "value": "CUSTOM:ChestnutStrippedWood"
+      },
+      {
+        "value": "CUSTOM:ChestnutLogStripped"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "logs_that_burn",
+    "namespace": "minecraft"
+  }
+}

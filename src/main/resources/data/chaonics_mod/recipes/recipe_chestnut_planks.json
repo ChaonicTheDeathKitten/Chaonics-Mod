@@ -1,0 +1,13 @@
+{
+  "group": "chestnut_planks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chaonics_mod:chestnut_log"
+    }
+  ],
+  "result": {
+    "item": "chaonics_mod:chestnut_planks",
+    "count": 4
+  }
+}

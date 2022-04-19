@@ -1,0 +1,8 @@
+{
+  "parent": "chaonics_mod:custom/chestnut_lamp",
+  "textures": {
+    "all": "chaonics_mod:blocks/chestnut_lamp",
+    "particle": "chaonics_mod:blocks/chestnut_lamp",
+    "texture": "chaonics_mod:blocks/chestnut_lamp"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaonics_mod:blocks/chestnut_log_stripped_top",
+    "up": "chaonics_mod:blocks/chestnut_log_stripped_top",
+    "north": "chaonics_mod:blocks/chestnut_log_stripped",
+    "east": "chaonics_mod:blocks/chestnut_log_stripped",
+    "south": "chaonics_mod:blocks/chestnut_log_stripped",
+    "west": "chaonics_mod:blocks/chestnut_log_stripped",
+    "particle": "chaonics_mod:blocks/chestnut_log_stripped_top"
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "mod_elements": [
+    {
+      "name": "ChestnutLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_log"
+    },
+    {
+      "name": "ChestnutLeaves",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_leaves"
+    },
+    {
+      "name": "Spatula",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spatula"
+    },
+    {
+      "name": "ChaonicsModTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaonics_mod_tab"
+    },
+    {
+      "name": "PlasterWhite",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_white"
+    },
+    {
+      "name": "Plaster",
+      "type": "tag",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs"
+    },
+    {
+      "name": "ChestnutDoor",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_door"
+    },
+    {
+      "name": "ChestnutPlanks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_planks"
+    },
+    {
+      "name": "RecipeChestnutPlanks",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_planks"
+    },
+    {
+      "name": "ChestnutLogTag",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_log_tag"
+    },
+    {
+      "name": "ChestnutLogStripped",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_log_stripped"
+    },
+    {
+      "name": "ChestnutSapling",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_sapling"
+    },
+    {
+      "name": "ChestnutLeavesDrops",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_leaves_drops"
+    },
+    {
+      "name": "LeavesTag",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_tag"
+    },
+    {
+      "name": "ChestnutLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_leaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestnutBranch",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_branch"
+    },
+    {
+      "name": "ChestnutLeavesBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_leaves_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestnutSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestnutSaplingBlockAdded",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_sapling_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestnutLamp",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_lamp"
+    },
+    {
+      "name": "ChestnutWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_wood"
+    },
+    {
+      "name": "ChestnutStrippedWood",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_stripped_wood"
+    },
+    {
+      "name": "RecipeChestnutWood",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_wood"
+    },
+    {
+      "name": "RecipeChestnutStrippedWood",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_stripped_wood"
+    },
+    {
+      "name": "ChestnutTrapdoor",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_trapdoor"
+    },
+    {
+      "name": "ChestnutStairs",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_stairs"
+    },
+    {
+      "name": "ChestnutFence",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_fence"
+    },
+    {
+      "name": "ChestnutFenceGate",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_fence_gate"
+    },
+    {
+      "name": "ChestnutSlab",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_slab"
+    },
+    {
+      "name": "ChestnutPressurePlate",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_pressure_plate"
+    },
+    {
+      "name": "WoodenFences",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fences"
+    },
+    {
+      "name": "ChestnutButton",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestnut_button"
+    },
+    {
+      "name": "RecipeChestnutStairs",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_stairs"
+    },
+    {
+      "name": "RecipeChestnutDoor",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_door"
+    },
+    {
+      "name": "RecipeChestnutTrapdoor",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_trapdoor"
+    },
+    {
+      "name": "Planks",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks"
+    },
+    {
+      "name": "LogsThatBurn",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs_that_burn"
+    },
+    {
+      "name": "RecipeChestnutFence",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_fence"
+    },
+    {
+      "name": "RecipeChestnutFenceGate",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_fence_gate"
+    },
+    {
+      "name": "RecipeChestnutSlab",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_slab"
+    },
+    {
+      "name": "RecipeChestnutPressurePlate",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_pressure_plate"
+    },
+    {
+      "name": "RecipeChestnutButton",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_chestnut_button"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.chaonics_mod.chestnut_log_stripped": "Chestnut Log",
+      "block.chaonics_mod.chestnut_fence": "Chestnut Planks",
+      "item.chaonics_mod.chestnut_branch": "Chestnut Branch",
+      "block.chaonics_mod.chestnut_trapdoor": "Chestnut Door",
+      "block.chaonics_mod.chestnut_slab": "Chestnut Planks",
+      "block.chaonics_mod.chestnut_pressure_plate": "Chestnut Planks",
+      "block.chaonics_mod.chestnut_button": "Chestnut Planks",
+      "block.chaonics_mod.chestnut_sapling": "Chestnut Sapling",
+      "block.chaonics_mod.chestnut_fence_gate": "Chestnut Planks",
+      "block.chaonics_mod.chestnut_log": "Chestnut Log",
+      "block.chaonics_mod.plaster_white": "Plaster White",
+      "block.chaonics_mod.chestnut_stairs": "Chestnut Planks",
+      "item.chaonics_mod.spatula": "Spatula",
+      "block.chaonics_mod.chestnut_stripped_wood": "Chestnut Log",
+      "block.chaonics_mod.chestnut_door": "Chestnut Door",
+      "block.chaonics_mod.chestnut_planks": "Chestnut Planks",
+      "itemGroup.tabchaonics_mod_tab": "Chaonic\u0027s Mod",
+      "block.chaonics_mod.chestnut_lamp": "Chestnut Lamp",
+      "block.chaonics_mod.chestnut_leaves": "Chestnut Leaves",
+      "block.chaonics_mod.chestnut_wood": "Chestnut Log"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chaonics_mod",
+    "modName": "Chaonic\u0027s Mod",
+    "version": "1.0.0",
+    "author": "Chaonic, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "chaonicsmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200115515
+}
