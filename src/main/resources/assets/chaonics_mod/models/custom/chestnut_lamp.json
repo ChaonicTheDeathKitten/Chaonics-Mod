@@ -1,8 +1,8 @@
 {
-  "__comment": "Made by Chaonic",
+  "credit": "Made with Blockbench",
   "elements": [
     {
-      "__comment": "Stem",
+      "name": "Stem",
       "from": [
         7,
         14,
@@ -14,31 +14,20 @@
         9
       ],
       "faces": {
-        "down": {
-          "uv": [
-            11,
-            7,
-            12,
-            8
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            11,
-            7,
-            12,
-            8
-          ],
-          "texture": "#texture",
-          "rotation": 270
-        },
         "north": {
           "uv": [
             11,
             6,
             12,
+            7
+          ],
+          "texture": "#texture"
+        },
+        "east": {
+          "uv": [
+            12,
+            6,
+            13,
             7
           ],
           "texture": "#texture"
@@ -61,19 +50,30 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
+            11,
+            7,
             12,
-            6,
-            13,
-            7
+            8
           ],
+          "rotation": 270,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            11,
+            7,
+            12,
+            8
+          ],
+          "rotation": 90,
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Hull",
+      "name": "Hull",
       "from": [
         2,
         2,
@@ -85,29 +85,20 @@
         14
       ],
       "faces": {
-        "down": {
-          "uv": [
-            0,
-            13,
-            6,
-            9.5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            0,
-            6,
-            6,
-            9.5
-          ],
-          "texture": "#texture"
-        },
         "north": {
           "uv": [
             9.5,
             0,
             15.5,
+            6
+          ],
+          "texture": "#texture"
+        },
+        "east": {
+          "uv": [
+            6,
+            0,
+            9.5,
             6
           ],
           "texture": "#texture"
@@ -130,19 +121,28 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
-            6,
             0,
             9.5,
+            6,
             6
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            0,
+            9.5,
+            6,
+            13
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Chestnut",
+      "name": "Chestnut",
       "from": [
         3,
         3,
@@ -154,15 +154,41 @@
         7
       ],
       "faces": {
-        "down": {
+        "north": {
           "uv": [
             6,
-            13,
+            8,
             11,
-            15
+            13
           ],
-          "texture": "#texture",
-          "rotation": 180
+          "texture": "#texture"
+        },
+        "east": {
+          "uv": [
+            13,
+            8,
+            11,
+            13
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            6,
+            8,
+            11,
+            13
+          ],
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            11,
+            8,
+            13,
+            13
+          ],
+          "texture": "#texture"
         },
         "up": {
           "uv": [
@@ -171,49 +197,23 @@
             11,
             8
           ],
-          "texture": "#texture",
-          "rotation": 180
+          "rotation": 180,
+          "texture": "#texture"
         },
-        "north": {
+        "down": {
           "uv": [
             6,
-            8,
-            11,
-            13
-          ],
-          "texture": "#texture"
-        },
-        "south": {
-          "uv": [
-            6,
-            8,
-            11,
-            13
-          ],
-          "texture": "#texture"
-        },
-        "west": {
-          "uv": [
-            11,
-            8,
             13,
-            13
-          ],
-          "texture": "#texture"
-        },
-        "east": {
-          "uv": [
-            13,
-            8,
             11,
-            13
+            15
           ],
+          "rotation": 180,
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike",
+      "name": "Spike",
       "from": [
         1,
         4,
@@ -225,24 +225,6 @@
         10
       ],
       "faces": {
-        "down": {
-          "uv": [
-            8,
-            4.5,
-            8.5,
-            5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            8,
-            4.5,
-            8.5,
-            5
-          ],
-          "texture": "#texture"
-        },
         "north": {
           "uv": [
             8,
@@ -269,11 +251,29 @@
             5
           ],
           "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            4.5,
+            8.5,
+            5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            8,
+            4.5,
+            8.5,
+            5
+          ],
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike1",
+      "name": "Spike1",
       "from": [
         1,
         11,
@@ -285,26 +285,6 @@
         10
       ],
       "faces": {
-        "down": {
-          "uv": [
-            8,
-            1,
-            8.5,
-            1.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            8,
-            1,
-            8.5,
-            1.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
         "north": {
           "uv": [
             8,
@@ -312,8 +292,8 @@
             8.5,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "south": {
           "uv": [
@@ -322,8 +302,8 @@
             8.5,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "west": {
           "uv": [
@@ -332,13 +312,33 @@
             8.5,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            1,
+            8.5,
+            1.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            8,
+            1,
+            8.5,
+            1.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike2",
+      "name": "Spike2",
       "from": [
         1,
         7,
@@ -350,60 +350,60 @@
         12
       ],
       "faces": {
-        "down": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
         "north": {
           "uv": [
-            4,
-            3.5,
-            4.5,
-            4
+            7,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "south": {
           "uv": [
-            4,
-            3.5,
-            4.5,
-            4
+            7,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "west": {
           "uv": [
-            4,
-            3.5,
-            4.5,
-            4
+            7,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            7,
+            3,
+            7.5,
+            3.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            7,
+            3,
+            7.5,
+            3.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike3",
+      "name": "Spike3",
       "from": [
         14,
         7,
@@ -415,60 +415,60 @@
         12
       ],
       "faces": {
-        "down": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
         "north": {
           "uv": [
-            4,
-            3.5,
-            4.5,
-            4
+            7,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "south": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "east": {
           "uv": [
-            4,
-            3.5,
-            4.5,
-            4
+            7,
+            3,
+            7.5,
+            3.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            7.5,
+            3.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            7,
+            3,
+            7.5,
+            3.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            7,
+            3,
+            7.5,
+            3.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike4",
+      "name": "Spike4",
       "from": [
         14,
         4,
@@ -480,55 +480,55 @@
         10
       ],
       "faces": {
-        "down": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
         "north": {
           "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "south": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
+            8,
+            4.5,
+            8.5,
+            5
           ],
           "texture": "#texture"
         },
         "east": {
           "uv": [
-            1,
-            11,
-            1.5,
-            11.5
+            8,
+            4.5,
+            8.5,
+            5
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            8,
+            4.5,
+            8.5,
+            5
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            4.5,
+            8.5,
+            5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            8,
+            4.5,
+            8.5,
+            5
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike5",
+      "name": "Spike5",
       "from": [
         14,
         11,
@@ -540,55 +540,55 @@
         10
       ],
       "faces": {
-        "down": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
         "north": {
           "uv": [
+            8,
             1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "south": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
+            8.5,
+            1.5
           ],
           "texture": "#texture"
         },
         "east": {
           "uv": [
+            8,
             1,
-            11,
-            1.5,
-            11.5
+            8.5,
+            1.5
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            8,
+            1,
+            8.5,
+            1.5
+          ],
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            8,
+            1,
+            8.5,
+            1.5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            8,
+            1,
+            8.5,
+            1.5
           ],
           "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike6",
+      "name": "Spike6",
       "from": [
         11,
         1,
@@ -600,7 +600,7 @@
         11
       ],
       "faces": {
-        "down": {
+        "north": {
           "uv": [
             1,
             11,
@@ -609,7 +609,7 @@
           ],
           "texture": "#texture"
         },
-        "north": {
+        "east": {
           "uv": [
             1,
             11,
@@ -636,7 +636,7 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "down": {
           "uv": [
             1,
             11,
@@ -648,7 +648,7 @@
       }
     },
     {
-      "__comment": "Spike7",
+      "name": "Spike7",
       "from": [
         4,
         1,
@@ -660,47 +660,47 @@
         11
       ],
       "faces": {
-        "down": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
         "north": {
           "uv": [
-            1,
+            4.5,
             11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "south": {
-          "uv": [
-            1,
-            11,
-            1.5,
-            11.5
-          ],
-          "texture": "#texture"
-        },
-        "west": {
-          "uv": [
-            1,
-            11,
-            1.5,
+            5,
             11.5
           ],
           "texture": "#texture"
         },
         "east": {
           "uv": [
-            1,
+            4.5,
             11,
-            1.5,
+            5,
+            11.5
+          ],
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            11,
+            5,
+            11.5
+          ],
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            11,
+            5,
+            11.5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            11,
+            5,
             11.5
           ],
           "texture": "#texture"
@@ -708,7 +708,7 @@
       }
     },
     {
-      "__comment": "Spike8",
+      "name": "Spike8",
       "from": [
         4,
         14,
@@ -720,16 +720,6 @@
         12
       ],
       "faces": {
-        "up": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
         "north": {
           "uv": [
             1,
@@ -737,28 +727,8 @@
             1.5,
             8.5
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "south": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "west": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "east": {
           "uv": [
@@ -767,13 +737,43 @@
             1.5,
             8.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            1,
+            8,
+            1.5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            1,
+            8,
+            1.5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            1,
+            8,
+            1.5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike9",
+      "name": "Spike9",
       "from": [
         11,
         14,
@@ -785,60 +785,60 @@
         12
       ],
       "faces": {
-        "up": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
         "north": {
           "uv": [
-            1,
+            4.5,
             8,
-            1.5,
+            5,
             8.5
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "south": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "west": {
-          "uv": [
-            1,
-            8,
-            1.5,
-            8.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "east": {
           "uv": [
-            1,
+            4.5,
             8,
-            1.5,
+            5,
             8.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "south": {
+          "uv": [
+            4.5,
+            8,
+            5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            8,
+            5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "up": {
+          "uv": [
+            4.5,
+            8,
+            5,
+            8.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike10",
+      "name": "Spike10",
       "from": [
         4,
         9,
@@ -850,16 +850,7 @@
         15
       ],
       "faces": {
-        "down": {
-          "uv": [
-            1,
-            2,
-            1.5,
-            2.5
-          ],
-          "texture": "#texture"
-        },
-        "up": {
+        "east": {
           "uv": [
             1,
             2,
@@ -886,7 +877,16 @@
           ],
           "texture": "#texture"
         },
-        "east": {
+        "up": {
+          "uv": [
+            1,
+            2,
+            1.5,
+            2.5
+          ],
+          "texture": "#texture"
+        },
+        "down": {
           "uv": [
             1,
             2,
@@ -898,7 +898,7 @@
       }
     },
     {
-      "__comment": "Spike11",
+      "name": "Spike11",
       "from": [
         6,
         4,
@@ -910,60 +910,60 @@
         15
       ],
       "faces": {
-        "down": {
+        "east": {
           "uv": [
-            4,
-            3.5,
+            2,
             4.5,
-            4
+            2.5,
+            5
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "south": {
           "uv": [
-            4,
-            3.5,
+            2,
             4.5,
-            4
+            2.5,
+            5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "west": {
           "uv": [
-            4,
-            3.5,
+            2,
             4.5,
-            4
+            2.5,
+            5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
-            4,
-            3.5,
+            2,
             4.5,
-            4
+            2.5,
+            5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            2,
+            4.5,
+            2.5,
+            5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike12",
+      "name": "Spike12",
       "from": [
         11,
         6,
@@ -975,60 +975,60 @@
         15
       ],
       "faces": {
-        "down": {
+        "east": {
           "uv": [
-            4,
-            3.5,
             4.5,
+            3.5,
+            5,
             4
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            4,
-            3.5,
-            4.5,
-            4
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "south": {
           "uv": [
-            4,
-            3.5,
             4.5,
+            3.5,
+            5,
             4
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "west": {
           "uv": [
-            4,
-            3.5,
             4.5,
+            3.5,
+            5,
             4
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
-            4,
-            3.5,
             4.5,
+            3.5,
+            5,
             4
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            3.5,
+            5,
+            4
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     },
     {
-      "__comment": "Spike13",
+      "name": "Spike13",
       "from": [
         9,
         11,
@@ -1040,55 +1040,55 @@
         15
       ],
       "faces": {
-        "down": {
+        "east": {
           "uv": [
-            8,
+            3.5,
             1,
-            8.5,
+            4,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
-        },
-        "up": {
-          "uv": [
-            8,
-            1,
-            8.5,
-            1.5
-          ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "south": {
           "uv": [
-            8,
+            3.5,
             1,
-            8.5,
+            4,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
         "west": {
           "uv": [
-            8,
+            3.5,
             1,
-            8.5,
+            4,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
         },
-        "east": {
+        "up": {
           "uv": [
-            8,
+            3.5,
             1,
-            8.5,
+            4,
             1.5
           ],
-          "texture": "#texture",
-          "rotation": 90
+          "rotation": 90,
+          "texture": "#texture"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            1,
+            4,
+            1.5
+          ],
+          "rotation": 90,
+          "texture": "#texture"
         }
       }
     }
@@ -1152,6 +1152,18 @@
         0.4
       ]
     },
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
     "gui": {
       "rotation": [
         30,
@@ -1169,18 +1181,6 @@
         1.4,
         1.4,
         1.4
-      ]
-    },
-    "ground": {
-      "translation": [
-        0,
-        3,
-        0
-      ],
-      "scale": [
-        0.25,
-        0.25,
-        0.25
       ]
     }
   }
